@@ -45,7 +45,7 @@ EXTENSIONS = {
 }
 
 
-class SF(object):
+class CF(object):
 
     def __init__(self, time_range):
         self.user_id = config.user_id
@@ -120,7 +120,7 @@ class SF(object):
     @staticmethod
     def write_code(code, contest_id, problem_name, language) -> None:
 
-        extension = SF.get_extension(language)
+        extension = CF.get_extension(language)
         path = f"{contest_id}/{problem_name}.{extension}"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w") as f:

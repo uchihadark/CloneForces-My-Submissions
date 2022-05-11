@@ -27,8 +27,8 @@ jobs:
       id : git_update
       continue-on-error: true
       run : |
-        git config user.name "SubmitForcesBot"
-        git config user.email "sfsubmitforces@bot.com"
+        git config user.name "CloneForcesBot"
+        git config user.email "cfcloneforces@bot.com"
         git add .
         git commit -m "Added my codes from AtCoder"
         git pull
