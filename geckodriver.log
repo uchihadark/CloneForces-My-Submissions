@@ -1039,3 +1039,22 @@ Read port: 43633
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1653144746498	geckodriver	INFO	Listening on 127.0.0.1:35489
+1653144746526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "50541" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepNW3dl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1653144751636	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepNW3dl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50541/devtools/browser/bc313786-f759-4623-830f-850e6539b968
+1653144755986	Marionette	INFO	Listening on port 44023
+Read port: 44023
+1653144756101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653144759418	Marionette	INFO	Stopped listening on port 44023
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PCompositorBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
