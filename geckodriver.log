@@ -1071,3 +1071,40 @@ DevTools listening on ws://localhost:35893/devtools/browser/84edd0eb-3b78-4504-9
 Read port: 45325
 1653231174563	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1653231178604	Marionette	INFO	Stopped listening on port 45325
+1656600745589	geckodriver	INFO	Listening on 127.0.0.1:44975
+1656600745604	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "46867" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoLMpOR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1656600749724	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:46867
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoLMpOR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656600753170	Marionette	INFO	Listening on port 46383
+Read port: 46383
+1656600753253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:46867/devtools/browser/606443e3-a082-419c-a1f0-a26ac6e766b1
+1656600759575	Marionette	INFO	Stopped listening on port 46383
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656600760256	geckodriver	INFO	Listening on 127.0.0.1:40067
+1656600760260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "48537" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLOEgfd"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1656600760552	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:48537
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLOEgfd/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656600761784	Marionette	INFO	Listening on port 42851
+DevTools listening on ws://localhost:48537/devtools/browser/be32ec0c-4b73-4e85-8be4-1c56f2e3d318
+Read port: 42851
+1656600761920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656600765768	Marionette	INFO	Stopped listening on port 42851
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
