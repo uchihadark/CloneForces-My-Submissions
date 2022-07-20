@@ -15,37 +15,35 @@ const long long mod = 1e9 + 7;
 #define endl    "\n"
 using namespace std;
 
-int binpow(int a, int b) {
-    int res = 1;
-    while (b > 0) {
-        if (b & 1)
-            res = res * a;
-        a = a * a;
-        b >>= 1;
-    }
-    return res;
-}
-
 void Solve() {
-    string s, t;
-    cin >> s >> t;
-    sort(all(t));
-    if (t[0] == 'a' && sz(t) > 1) {
-        cout << -1 << endl;
-        return;
+    int n, k;
+    cin >> n >> k;
+    vi v(n);
+    for (auto &x : v) {
+        cin >> x;
     }
-    if (t[0] == 'a' && sz(t) == 1) {
-        cout << 1 << endl;
-        return;
+    int cur = 0;
+    for (int i = 0; i < n; i++) {
+        int num = v[i] + cur;
+        if (num > 8) {
+            cur = num - 8;
+            num = 8;
+        } else {
+            cur = 0;
+        }
+        k -= num;
+        if (k <= 0) {
+            cout << i + 1 << endl;
+            return;
+        }
     }
-    cout << binpow(2, sz(s)) << endl;
-
+    cout << -1 << endl;
 }
 
 int32_t main() {
     FAST_IO
     int TC = 1;
-    cin >> TC;
+    // cin >> TC;
     while (TC--) {
         Solve();
     }
