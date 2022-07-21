@@ -15,44 +15,12 @@ const long long mod = 1e9 + 7;
 #define endl    "\n"
 using namespace std;
 
-
 void Solve() {
     int n;
     cin >> n;
-    vi v(n);
-    int cnt = 0;
-    for (int i = 0; i < n; i++) {
-        cin >> v[i];
-        if (v[i] < 0)cnt++;
-    }
-    if (cnt == 0) {
-        for (int i = 1; i < n; i++) {
-            if (v[i] < v[i - 1]) {
-                cout << "NO\n";
-                return;
-            }
-        }
-        cout << "YES\n";
-        return;
-    }
-    for (int i = 0; i < cnt; i++) {
-        if (v[i] < 0)continue;
-        else {
-            v[i] = -1 * v[i];
-        }
-    }
-    for (int i = cnt; i < n; i++) {
-        v[i] = abs(v[i]);
-    }
-    for (int i = 1; i < n; i++) {
-        if (v[i] < v[i - 1]) {
-            cout << "NO\n";
-            return;
-        }
-    }
-    cout << "YES\n";
-
+    cout << n << endl;
 }
+
 int32_t main() {
     FAST_IO
     int TC = 1;
