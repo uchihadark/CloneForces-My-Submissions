@@ -2647,3 +2647,29 @@ DevTools listening on ws://127.0.0.1:40571/devtools/browser/6897e3ce-5bc6-4dc4-b
 1668523962047	Marionette	INFO	Stopped listening on port 45141
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+1671029546869	geckodriver	INFO	Listening on 127.0.0.1:45393
+1671029547391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "56453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTj3rO4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671029551945	Marionette	INFO	Marionette enabled
+1671029551958	Marionette	INFO	Listening on port 46185
+Read port: 46185
+WebDriver BiDi listening on ws://127.0.0.1:56453
+1671029552869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTj3rO4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56453/devtools/browser/6f3e16a8-8bb1-4941-8272-ed3df72d2aea
+1671029559238	Marionette	INFO	Stopped listening on port 46185
+1671029560046	geckodriver	INFO	Listening on 127.0.0.1:43163
+1671029560553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "36939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXOM6ta"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671029560853	Marionette	INFO	Marionette enabled
+1671029560857	Marionette	INFO	Listening on port 41151
+WebDriver BiDi listening on ws://127.0.0.1:36939
+Read port: 41151
+1671029561139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXOM6ta/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36939/devtools/browser/e9c4a09a-81b4-4e14-87c2-4a28a39efd92
+1671029572128	Marionette	INFO	Stopped listening on port 41151
